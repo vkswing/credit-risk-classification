@@ -1,38 +1,41 @@
-# German Credit Risk Classification
+# Credit Risk Classification (German Dataset)
 
 ## Overview
-This project builds a machine learning model to predict whether a borrower is a good or bad credit risk using the German Credit Dataset.
+Built a machine learning model to classify borrower credit risk (good vs bad) using financial and demographic features from the German Credit Dataset.
 
 ## Objective
-The goal is to help financial institutions assess credit risk and reduce potential losses from loan defaults.
+Help financial institutions assess credit risk and reduce potential losses from loan defaults.
 
 ## Dataset
-- Source: UCI German Credit Dataset
-- Contains features such as age, credit amount, employment status, and account balance
-- Target: Good Credit (1) vs Bad Credit (0)
+- Source: UCI German Credit Dataset  
+- Features: age, credit amount, employment status, account balance, etc.  
+- Target: Good Credit (1) vs Bad Credit (0)  
 
 ## Methods
-- Data preprocessing and cleaning
-- Feature selection
-- Model training using:
-  - Logistic Regression
-  - Random Forest
+- Data preprocessing and cleaning  
+- Feature encoding and selection  
+- Models used:
+  - Logistic Regression  
+  - Random Forest  
 
 ## Evaluation Metrics
-- Accuracy
-- Precision
-- Recall
-- F1 Score
+- Accuracy  
+- Precision  
+- Recall  
+- F1 Score  
 
 ## Results
-The models were evaluated based on their ability to correctly classify high-risk applicants. Random Forest performed better in handling non-linear relationships.
+- Random Forest outperformed Logistic Regression in capturing non-linear relationships  
+- Model performance highlighted the importance of minimizing false negatives (predicting a risky borrower as safe)  
+
+## Business Impact
+- Supports better lending decisions  
+- Helps reduce financial losses from high-risk borrowers  
+- Demonstrates real-world application of machine learning in fintech  
 
 ## Tools & Technologies
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Jupyter Notebook
-
-## Project Link
-[GitHub Repository](https://github.com/vkswing/credit-risk-classification)
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Jupyter Notebook  
